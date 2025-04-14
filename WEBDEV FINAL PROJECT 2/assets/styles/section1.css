@@ -1,0 +1,25 @@
+#section1{
+    color: #ffff;
+}
+.section1-container{
+    display: grid;
+    grid-template-columns: repeat(31, 50px);
+    grid-template-rows: repeat(17, 50px);
+}
+.item1{
+    grid-column: 8/24;
+    grid-row: 5/17;
+}
+.item1 img{
+    width: 100%;
+}
+.item2{
+    grid-column: 8/24;
+    grid-row: 11/16;
+    font-size: 113px;
+    letter-spacing: 3px;
+}
+.primary-button{
+    grid-column: 14/17;
+    grid-row: 14/15;
+}

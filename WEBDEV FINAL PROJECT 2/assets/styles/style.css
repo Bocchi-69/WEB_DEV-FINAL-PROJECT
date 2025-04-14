@@ -1,0 +1,33 @@
+/* 
+-- Responsive Breakpoints
+sm: 640px - mobile phone size
+md: 768px - Tablet size
+lg: 1024px - Laptop standard size
+xl: 1280px -- larger wide desktop size
+*/
+
+/* Reuseable*/
+@import 'navbar.css';
+@import 'logo.css';
+@import 'button.css';
+
+
+/* SECTIONS */
+@import 'section1.css';
+@import 'section2.css';
+@import 'section3.css';
+@font-face {
+  font-family: 'bebas-nue';
+  src: url(./BebasNeue-Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    background-color: #000;
+    font-family: 'bebas-nue';
+  }
+  
